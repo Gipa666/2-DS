@@ -1,0 +1,7 @@
+preço = int(input('Digite o preço da mercadoria:'))
+desconto = int(input('Digite o valor do desconto da mercadoria:'))
+
+valor_do_desconto = preço * desconto/100
+a_pagar = preço - valor_do_desconto
+
+print(a_pagar)
