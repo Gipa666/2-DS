@@ -1,0 +1,31 @@
+Palavra_secreta = "Pombinha"
+
+letras_acertadas = ""
+
+numero_de_tentativas = 0
+
+while True:
+    letra = input("Digite uma letra: ").lower()
+    
+    if len(letra) != 1: 
+        print("Número incorreto de letras! Digite somente uma letra por vez.")
+        continue
+    
+    if letra in letras_acertadas:
+        print("Você já acertou essa letra.")
+        continue
+    
+    if letra in Palavra_secreta:
+        letras_acertadas += letra
+        print(f"Boa! A letra '{letra}' está na palavra.")
+    else:
+        print(f"A letra '{letra}' não está na palavra.")
+    
+    numero_de_tentativas += 1
+    
+    palavra_atual = ''.join([letra if letra in letras_acertadas else '_' for letra in Palavra_secreta])
+    print(f"Palavra atual: {palavra_atual}")
+    
+    if palavra_atual == Palavra_secreta:
+        print(f"Parabéns! Você adivinhou a palavra '{Palavra_secreta}' em {numero_de_tentativas} tentativas.")
+        break
