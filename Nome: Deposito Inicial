@@ -1,0 +1,8 @@
+deposito_inicial= float(input("Qual é o seu deposito inicial:"))
+juros= int(input("Qual é a taxa de juros da poupança:"))
+
+juros_total = deposito_inicial * juros
+valor_mensal_dos_juros = juros_total / 24
+
+print(f"seus juros mensais são de: R$ {valor_mensal_dos_juros:.2f}")
+print(f"os juros totais ganhos são: R$ {juros_total:.2f}")
