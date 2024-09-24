@@ -1,0 +1,15 @@
+distancia_percorrida = float(input('Digite a distância percorrida durante o trajeto em km:'))
+dias_alugados = int(input('Digite a quantidade de dias que o carro será alugado:'))
+
+preço_da_diaria_do_carro = int(f'60')
+preço_por_km_rodado = float(f'0.15')
+
+preço_a_pagar_pelos_dias = dias_alugados * preço_da_diaria_do_carro
+preço_a_pagar_por_km = distancia_percorrida * preço_por_km_rodado
+
+print (f"você ira pagar {preço_a_pagar_pelos_dias} pela diária")
+print (f"você ira pagar {preço_a_pagar_por_km} pelos km rodados")
+
+preço_total = preço_a_pagar_pelos_dias + preço_a_pagar_por_km
+
+print(f"o preço total a pagar é: R$ {preço_total:.2f}")
