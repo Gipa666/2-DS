@@ -1,0 +1,15 @@
+casa = int(input("Qual o valor da casa desejada, digite o valor:"))
+salario = float(input("Qual o seu salário mensal:"))
+anos = int(input("Qual a quantidade de anos você levará para pagar esta casa:"))
+
+meses = anos * 12
+prestação_mensal = casa / meses
+
+limite_prestação = salario * 0.30
+
+print(f"valor da prestação: R$ {prestação_mensal:.2f}")
+
+if prestação_mensal <= limite_prestação:
+    print("emprestimo aprovado!")
+else:
+    print("emprestimo negado!")
