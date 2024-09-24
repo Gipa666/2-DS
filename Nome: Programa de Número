@@ -1,0 +1,9 @@
+número_1 = int(input("Digite um número"))
+número_2 = int(input("Digite um número"))
+número_3 = int(input("Digite um número"))
+
+menor = min(número_1, número_2, número_3)
+maior= max(número_1, número_2, número_3)
+
+print(f"o menor número é: {menor}")
+print(f"o maior número é: {maior}")
