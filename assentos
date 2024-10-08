@@ -1,0 +1,14 @@
+assentos = [[0 for _ in range(8)]] for _ in range(5)]
+    
+def reservar_assento(assentos, fileiras, assento):
+if 0 <= fileira < len(assentos) and 0 <= assento < len(assentos[0]):
+    if assentos[fileira][assentos] == 0:
+        assentos[fileira][assentos] = 1
+        print(f"Assentos ({fileira + 1}, {assentos + 1}") reservado com sucesso.")
+    else: 
+        print(f"Assento ({fileira + 1}, {assento + 1}) Já está reservado")
+    else:
+        print("Assento inváido.")
+    
+def cancelar_reserva(assentos, fileira, assento):
+    if 0 
