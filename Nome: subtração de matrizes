@@ -1,0 +1,12 @@
+def subtracao_matrizes(A, B):
+    #Assumindo que A e B tem as mesmas dimensoes
+    linhas = len(A)
+    colunas = len(A[0])
+    c = [[0 for _ in range(colunas)] for _ in range(linhas)]
+
+    for i in range(linhas):
+        for j in range(colunas):
+            c[i][j] = A[i][j] - B[i][j]
+
+
+return C 
