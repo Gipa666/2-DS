@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end sobre mim</title>
+    <style>
+        body{
+            background-color: rgba(164, 30, 168, 0.527);
+            background-image: url(pochacco.jpg);
+        }
+
+    </style>
+    <style>
+        h1{
+            background-color: rgb(206, 166, 221);
+        }
+
+        h2{
+            background-color: rgb(210, 181, 226);
+        }
+
+        p{
+        
+        }
+    </style>
+</head>
+<body> 
+    <h1>Front-end</h1>
+    <h2> sobre mim  </h2> 
+    <p>Eu me chamo Pamela tenho 17 anos, gosto de coisas alternativas e estou sempre buscando aprender coisas novas, atualmente estou trabalhando em um escritório onde faço diversas coisas, lá eu aprendi como lidar com as pessoas, como funciona e principalmente como se trabalha em grupo. Estou no 3 ano do ensino medio tecnico em desenvolvimento de sistema, escolhi esse curso por extamente gostar de aprender coisas novas, mas ainda não sei se pretendo seguir seguir com essa está profissão, mas conhecimento nunca é demais. <br> Meu projeto de vida é conseguir meformar em diversas areas, tais como perito, delegada, psicologa  e animadora de cartoon, mas sei que não será falcil e ainda tenho tempo para me encontar naquilo que realmente me prenda ee me faça consiguir um bom lucro parar ter uma estabilidade. <br> Nem sempre as coisas foram faceis, pois tive depressão aos meus 13 anos de idade, onde me atrapalhou a desenvolver diversas coisas da minha vida, mas atualmente estou em tratamento onde me encontro bem melhor e com isso adquiri diversas oportunidades na vida e um bom relacionamento com as pessoas, amigos, familia e até amoroso.   </p>
+<h2>O que o curso agregou para mim?</h2>
+<p> No curso aprendi sobre diversos aplicativos, como usalos e até mesmo como a programar,  mas não só trabalhamos nisso como também a lidar em grupo e individual, além de ter um pequeno preparatorio para o mercado de trabalho e oque ele tem a nos oferecer e graças a isso eu consegui um emprego e ter mais conhecimento sobre a area, como trabalhar nela e suas vantagens e desvantagens. </p>
+    
+
+    
+</body>
+</html>
